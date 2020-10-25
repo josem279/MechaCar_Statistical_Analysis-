@@ -32,3 +32,10 @@ Using the total_summary and lot_summary dataframes shown above, we can answer th
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
     Based on the summary output, we can see that the MechaCar suspension coils do not exceed a variance of 100 PSI when grouping all lots as a total. However, when we look at the lots separately it appears as though one lot, lot 3, has a PSI variance that is greater than the specified 100 pounds per square inch variance. These two results stem from the fact that lots 1 and 2 have very small variances from that of the total population, meaning that they are good representatives of the whole population and adjust some of the skewness that exists in lot 3. Thus when the populations are not grouped by lot number, their PSI variance is averaged down. When however, lot 3 is examined separately we can see just how much larger the variance is for this subset of the population (about 220 PSI). Based on this information, te data tells us that as a whole MechaCars does meet PSI design specs but when it is broken down by lots, only the vehicles in lots 1 and 2 meet the specifications while lot 3 does not.
+
+## T-Tests on Suspension Coils
+
+![Image 1 of t-tests](https://github.com/josem279/MechaCar_Statistical_Analysis-/blob/main/Images/t-test_image_1.PNG)
+
+![Image 2 of t-tests](https://github.com/josem279/MechaCar_Statistical_Analysis-/blob/main/Images/t-test_image_2.PNG)
+
