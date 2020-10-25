@@ -2,6 +2,8 @@
 
 ## Purpose
 
+The purpose of this project was to conduct a series of statistical analyses on data sets provided for a car manufacturing company, MechaCar. Additionally, a hypothetical description of an analysis that could be done to compare the ocmpany against other car manufacturers was detailed.
+
 ## Linear Regression to Predict MPG
 
 ![Image of Linear Regression](https://github.com/josem279/MechaCar_Statistical_Analysis-/blob/main/Images/MechaCarDF_Summary_Stats.PNG)
